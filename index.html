@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4368c60274.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main id="container">
+
+        <div id="container_header">
+            <header id="header">
+                <div class="logo_container">
+                    <p class="logo">Luminous Night Games</p>
+                </div>
+                <span id="boton"><i class="fas fa-bars"></i></span>
+            </header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home__container-primary" class="button-home">Home</a></li>
+                    <li><a href="#games__container-primary" class="button-games">Games</a></li>
+                    <li><a href="#news__container-primary" class="button-news">News</a></li>
+                    <li><a href="#donations__container-primary" class="button-donations">Donations</a></li>
+                    <li><a href="#contact__container-primary" class="button-contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="div_container" id="home__container-primary">
+            <div id="home">
+                <h2 class="about_title">About us</h2>
+                <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sequi
+                    vitae consectetur numquam ducimus, quidem magnam laborum quisquam fuga vero recusandae
+                    accusantium perferendis! Quibusdam distinctio eveniet at quam unde repellendus?</p>
+            </div>
+        </div>
+        <div id="games__container-primary">
+        <div class="div_container">
+            <div id="games">
+                <p class="games_title">Games</p>
+                <div id="games_container"></div>
+            </div>
+        </div>
+    </div>
+        <div class="div_container" id="news__container-primary">
+            <div id="news">
+                <p class="news_title">News</p>
+                <div id="news_container"></div>
+            </div>
+        </div>
+        <div class="div_container" id="donations__container-primary">
+            <div id="donations">
+                <p class="donations_title">Donations</p>
+                <div id="donations_container"></div>
+            </div>
+        </div>
+        <div class="div_container" id="contact__container-primary">
+            <div id="contact">
+                <p class="contact_title">Contact</p>
+                <div id="contact_container">
+                    <form action="#" method="post" id="formulario" class="formulario">
+                        <label for="name" class="label">Name: </label>
+                        <input type="text" name="name" id="name" class="input" placeholder="Name">
+                        <label for="email" class="label">Email: </label>
+                        <input type="email" name="email" id="email" class="input" placeholder="Email">
+                        <label for="subject" class="label">Subject: </label>
+                        <input type="text" name="subject" id="subject" class="input" placeholder="Subject">
+                        <label for="message" class="label">Message: </label>
+                        <input type="text" name="message" id="message" class="input" placeholder="Message">
+                        <input type="submit" value="submit" id="submit" class="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <p class="footer_content">made by Luminous Night Games &copy;</p>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
